@@ -12,7 +12,7 @@ public class BrowserManager extends Util {
 
     public void SetBrowser()//Method to Open(initialise) Browser
     {
-        String browserName = "firefox";
+        String browserName = loadProp.getProperty("browserName");//User can change browser as per requirement
         //Check if parameter passed from TestNG is 'firefox'
         if (browserName.equalsIgnoreCase("firefox")) {
             //create firefox instance
