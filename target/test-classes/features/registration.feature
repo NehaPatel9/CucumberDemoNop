@@ -8,3 +8,4 @@ Feature:
     And   user enters all required registration details
     And   user enters all required -submit button
     Then  user should able to register successfully
+

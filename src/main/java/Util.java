@@ -42,10 +42,10 @@ public class Util extends BasePage {
     //Reusable method to capture screenshot for failed test cases
     public static void ScreenShotCapture(String NameofScreenshot) {
         File scrFile = ((TakesScreenshot) driver).getScreenshotAs(OutputType.FILE);
-        //The below method will save the screen shot in d drive with test method name
+        //The below method will save the screen shot
         try {
-            // String Screenshotname = new String();
-            FileUtils.copyFile(scrFile, new File(("src\\ScreenShot" + NameofScreenshot + ".png")));
+
+            FileUtils.copyFile(scrFile, new File(("src\\main\\ScreenShot" + NameofScreenshot + ".png")));
 
         } catch (IOException e) {
             e.printStackTrace();
