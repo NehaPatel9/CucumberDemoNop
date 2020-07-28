@@ -23,5 +23,4 @@ public class Hooks extends Util{ //Class Hook to manage opening and closing brow
         }
         driver.close();
     }
-
 }
