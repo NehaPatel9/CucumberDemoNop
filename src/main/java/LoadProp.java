@@ -17,6 +17,7 @@ public class LoadProp { //Class to get Data from file "TestDataConfig.properties
             input = new FileInputStream(fileLocation + fileName);
             prop.load(input);
             input.close();
+
         } catch (IOException e) {
             e.printStackTrace();
         }
@@ -28,3 +29,4 @@ public class LoadProp { //Class to get Data from file "TestDataConfig.properties
 
     }
 }
+neha test
