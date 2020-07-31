@@ -4,7 +4,7 @@ import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 public class BrowserManager extends Util {
     LoadProp loadProp = new LoadProp();
-    public void SetBrowser() {
+    public void setBrowser() {
         String browserName = loadProp.getProperty("browserName");//User can change browser as per requirement
         //Check if parameter passed from TestNG is 'firefox'
         if (browserName.equalsIgnoreCase("firefox")) {

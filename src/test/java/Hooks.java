@@ -10,8 +10,8 @@ public class Hooks extends Util{ //Class Hook to manage opening and closing brow
     //Object for BrowserManager class created to invoke open browser and close browser method
 
     @Before
-    public  void SetBrowser(){ //Method to open browser
-        browserManager.SetBrowser();
+    public  void openBrowser(){ //Method to open browser
+        browserManager.setBrowser();
     }
     @After
     public void CloseBrowser(Scenario scenario) {
