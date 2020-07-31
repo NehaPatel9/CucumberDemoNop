@@ -9,7 +9,7 @@ import java.io.IOException;
 
 public class Util extends BasePage {
 
-    public static void TypeText(By by, String text, int time) { //Reusable method to enter text in input box
+    public static void typeText(By by, String text, int time) { //Reusable method to enter text in input box
         driver.findElement(by).sendKeys(text);
     }
 

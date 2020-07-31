@@ -7,7 +7,7 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="BDDAutomationProject" />
-        <module name="CucumberDemoNop" />
+
       </profile>
     </annotationProcessing>
   </component>
